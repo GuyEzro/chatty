@@ -1,0 +1,51 @@
+# This is a sample configuration file for an Azure Static Web App with a React app
+# Replace the placeholders with the correct values for your app
+
+# Configuration for the build process
+# You can customize the build process by setting the following properties
+build:
+  # Set the command to build your app
+  # This assumes your app has a `package.json` file and uses `npm` as the package manager
+  # Change the command if your app uses a different package manager or build tool
+  # You can also set additional environment variables here if necessary
+  command: npm run build
+
+# Configuration for the app's runtime environment
+# You can customize the runtime environment by setting the following properties
+# The runtime environment is where your app will be deployed and served to users
+# You can configure things like routing, authentication, and security here
+# This example assumes you're using React Router for client-side routing
+# Replace the placeholders with the correct values for your app
+# For more information on configuring the runtime environment, see the Azure Static Web Apps documentation
+# (https://docs.microsoft.com/en-us/azure/static-web-apps/configuration)
+# Note that this configuration is specific to the React framework
+# If you're using a different framework, you'll need to customize the configuration accordingly
+# You can also set up environment variables to be used in your app here
+# (https://docs.microsoft.com/en-us/azure/static-web-apps/configuration#application-settings)
+# The `ROUTER_BASE_PATH` environment variable is used by React Router to set the base path for client-side routing
+# Change this value if your app uses a different base path
+# The `REACT_APP_API_URL` environment variable is used to specify the URL for your API
+# Change this value if your app uses a different API URL
+# Note that environment variables are sensitive information and should not be committed to your repository
+# Use Azure Static Web Apps' built-in environment variables to manage sensitive information
+# (https://docs.microsoft.com/en-us/azure/static-web-apps/configuration#application-settings)
+# You can also use the Azure Key Vault to securely store and manage secrets
+# (https://docs.microsoft.com/en-us/azure/static-web-apps/key-vault-secrets)
+# See the Azure Static Web Apps documentation for more information
+# (https://docs.microsoft.com/en-us/azure/static-web-apps/)
+# Replace the placeholders with the correct values for your app
+# This example assumes you're using React Router for client-side routing
+# Replace the placeholders with the correct values for your app
+# For more information on configuring the runtime environment, see the Azure Static Web Apps documentation
+# (https://docs.microsoft.com/en-us/azure/static-web-apps/configuration)
+routes:
+  # Set up the routes for your app
+  # This example assumes you're using React Router for client-side routing
+  # Replace the placeholders with the correct values for your app
+  # You can add additional routes here if necessary
+  # For more information on configuring routing, see the Azure Static Web Apps documentation
+  # (https://docs.microsoft.com/en-us/azure/static-web-apps/configuration#routes)
+  - route: /api/*
+    # Set up the route for your API
+    # This example assumes you have an API at `/api`
+    # Replace the placeholder with the correct value for your
