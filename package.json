@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
-    "@playwright/test": "^1.22.2"
+    "@playwright/test": "^1.22.2",
+    "gh-pages": "^5.0.0"
   }
 }
